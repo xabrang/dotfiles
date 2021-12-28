@@ -1,0 +1,12 @@
+call plug#begin('~/.vim/plugged')
+Plug 'fatih/vim-go'
+Plug 'editorconfig/editorconfig-vim'
+Plug 'mattn/emmet-vim'
+call plug#end()
+syntax on
+set ai
+set number
+set hlsearch
+set incsearch
+set bg=dark
+set directory=$HOME/.vim/swapfiles//
